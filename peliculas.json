@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titulo": "Avengers",
+    "descripcion": "Superhéroes unidos para salvar el mundo en esta épica película llena de acción y emociones. del director Joss Whedon con el reparto principal de Robert Downey Jr, Chris Evans, Mark Ruffalo , Chris Hemsworth , Scarlett Johansson , Jeremy Renner, Tom Hiddleston, Samuel L. Jackson",
+    "imagenes": ["img/avengers.jpg","img/avengers2.jpg"],
+    "enlace": "https://www.imdb.com/es-es/title/tt0848228"
+  },
+  {
+    "id": 2,
+    "titulo": "Inception",
+    "descripcion": "Sueños dentro de sueños. Una aventura de la mente que te hará cuestionar la realidad. Llena de efectos visuales impresionantes y giros inesperados. del director Christopher Nolan con el reparto principal de Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Tom Hardy, Ken Watanabe, Marion Cotillard, Cillian Murphy, Michael Caine",
+    "imagenes": ["img/inception.jpg","img/inception2.jpg"],
+    "enlace": "https://www.imdb.com/es-es/title/tt1375666"
+  },
+  {
+    "id": 3,
+    "titulo": "The Matrix",
+    "descripcion": "La realidad es simulada, descubre la verdad y pelea contra las máquinas. Acción, filosofía y efectos visuales revolucionarios. de parte de las hermanas Wachowski (Lana y Lilly Wachowski) con el reparto principal de Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving y Joe Pantoliano.",
+    "imagenes": ["img/matrix.png","img/matrix2.jpg","img/matrix3.png"],
+    "enlace": "https://www.imdb.com/es-es/title/tt0133093"
+  },
+  {
+    "id": 4,
+    "titulo": "Weapons: la hora de la desaparición",
+    "descripcion": "Cuando todos los niños de la misma clase, salvo uno, desaparecen misteriosamente la misma noche y exactamente a la misma hora, una comunidad intenta descubrir quién o qué está detrás. de parte del director Zach Cregger con el reparto principal de Josh Brolin, Julia Garner, Alden Ehrenreich, Austin Abrams, Cary Christopher, Benedict Wong y Amy Madigan.",
+    "imagenes": ["img/weapons1.jpg","img/weapons2.jpg"],
+    "enlace": "https://www.imdb.com/es-es/title/tt26581740/?utm_source"
+  },
+  {
+    "id": 5,
+    "titulo": "Superman: James Gunn",
+    "descripcion": "La nueva entrega de Superman dirigida por James Gunn con aventuras épicas y efectos visuales impresionantes con el reparto principal de David Corenswet, Rachel Brosnahan, Nicholas Hoult.",
+    "imagenes": ["img/superman1.jpg","img/superman2.jpg"],
+    "enlace": "https://www.imdb.com/es-es/title/tt5950044"
+  },
+  {
+    "id": 6,
+    "titulo": "Los Cuatro Fantásticos 2025",
+    "descripcion": "La esperada nueva versión de Los Cuatro Fantásticos llega con acción, aventuras y nuevos héroes, del director Matt Shakman con el reparto principal de Pedro Pascal, Vanessa Kirby , Joseph Quinn , Ebon Moss-Bachrach, también aparecen Julia Garner como Silver Surfer, Ralph Ineson como Galactus",
+    "imagenes": ["img/4fantasticos1.jpg","img/4fantasticos2.jpeg"],
+    "enlace": "https://www.imdb.com/es-es/title/tt10676052"
+  }
+]
