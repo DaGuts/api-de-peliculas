@@ -5,8 +5,7 @@ const modalTitle = document.getElementById('modal-title');
 const modalBody = document.getElementById('modal-body');
 const modalLink = document.getElementById('modal-link');
 
-
-fetch('http://localhost:3000/peliculas')  // 👈 Tu API en Node con MySQL
+fetch('http://localhost:3000/peliculas')
   .then(res => res.json())
   .then(peliculas => {
     peliculas.forEach(peli => {
@@ -41,7 +40,8 @@ fetch('http://localhost:3000/peliculas')  // 👈 Tu API en Node con MySQL
   })
   .catch(err => console.error("Error cargando películas:", err));
 
-
+closeBtn.onclick = () => modal.style.display = 'none';
+window.onclick = e => { if(e.target == modal) modal.style.display='none'; };
 
 function getRandomColor(){
   const letters = '0123456789ABCDEF';
@@ -51,15 +51,6 @@ function getRandomColor(){
   }
   return color;
 }
-
-app.get('/peliculas', (req, res) => {
-  db.query('SELECT * FROM peliculas', (err, results) => {
-    if (err) {
-      return res.status(500).json({ error: 'Error en la consulta' });
-    }
-    res.json(results);
-  });
-});
 
 closeBtn.onclick = () => modal.style.display = 'none';
 window.onclick = e => { if(e.target == modal) modal.style.display='none'; };
